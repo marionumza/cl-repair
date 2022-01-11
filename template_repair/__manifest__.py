@@ -35,7 +35,7 @@
     'env-ver': '2',
 
     # if Enterprise it installs in a different directory than community
-    'odoo-license': 'EE',
+    'odoo-license': 'CE',
 
     # Config to write in odoo.conf
     'config': [
@@ -67,9 +67,9 @@
     'port': '8069',
 
     'git-repos': [
-        'git@github.com:marionumza/cl-repair.git',
-        'git@github.com:jobiols/odoo-jeo-ce.git',
-        'git@github.com:jobiols/odoo-private-addons.git',
+        'https://github.com/marionumza/cl-repair.git',
+        #'git@github.com:jobiols/odoo-jeo-ce.git',
+        #'git@github.com:jobiols/odoo-private-addons.git',
 
         # OCA
         'https://github.com/OCA/l10n-spain OCA-l10n-spain',
