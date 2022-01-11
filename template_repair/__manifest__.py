@@ -19,12 +19,12 @@
 ##############################################################################
 
 {
-    'name': 'template',
+    'name': 'repair',
     'version': '13.0.1.0.0',
     'category': 'Tools',
-    'summary': "Test for v13 CE",
+    'summary': "Proyecto para Repair",
     'author': "jeo Software",
-    'website': 'http://github.com/jobiols/cl-test',
+    'website': 'http://github.com/marionumza/cl-repair',
     'license': 'AGPL-3',
     'depends': [
         'standard_depends_ce'
@@ -35,7 +35,7 @@
     'env-ver': '2',
 
     # if Enterprise it installs in a different directory than community
-    'odoo-license': 'CE',
+    'odoo-license': 'EE',
 
     # Config to write in odoo.conf
     'config': [
@@ -155,38 +155,6 @@
         'https://github.com/OCA/project-reporting oca-project-reporting',
         'https://github.com/OCA/stock-logistics-reporting oca-stock-logistics-reporting',
 
-        # ingadhoc
-        'https://github.com/ingadhoc/product ingadhoc-product',
-
-        # Cambiamos por el de filoquin
-        #'https://github.com/ingadhoc/odoo-argentina ingadhoc-odoo-argentina',
-        'https://github.com/filoquin/odoo-argentina-ce.git -b 13.0_qr',
-
-        'https://github.com/ingadhoc/miscellaneous ingadhoc-miscellaneous',
-        'https://github.com/ingadhoc/sale ingadhoc-sale',
-        'https://github.com/ingadhoc/purchase ingadhoc-purchase',
-        'https://github.com/ingadhoc/account-financial-tools ingadhoc-account-financial-tools',
-        'https://github.com/ingadhoc/website ingadhoc-website',
-        'https://github.com/ingadhoc/account-invoicing ingadhoc-account-invoicing',
-        'https://github.com/ingadhoc/aeroo_reports ingadhoc-aeroo_reports',
-        'https://github.com/ingadhoc/odoo-public-administration ingadhoc-odoo-public-administration',
-        'https://github.com/ingadhoc/account-payment ingadhoc-account-payment',
-        'https://github.com/ingadhoc/multi-company ingadhoc-multi-company',
-        'https://github.com/ingadhoc/argentina-sale ingadhoc-argentina-sale',
-        'https://github.com/ingadhoc/stock ingadhoc-stock',
-        'https://github.com/ingadhoc/argentina-reporting ingadhoc-argentina-reporting',
-        'https://github.com/ingadhoc/partner ingadhoc-partner',
-        'https://github.com/ingadhoc/reporting-engine ingadhoc-reporting-engine',
-        'https://github.com/ingadhoc/odoo-argentina-ce ingadhoc-odoo-argentina-ce',
-        'https://github.com/ingadhoc/manufacture ingadhoc-manufacture',
-        'https://github.com/ingadhoc/multi-store ingadhoc-multi-store',
-        'https://github.com/ingadhoc/hr ingadhoc-hr',
-        'https://github.com/ingadhoc/odoo-legal ingadhoc-odoo-legal',
-        'https://github.com/ingadhoc/account-analytic ingadhoc-account-analytic',
-        'https://github.com/ingadhoc/project ingadhoc-project',
-
-        # Odoomates
-        'https://github.com/odoomates/odooapps odoomates-odooapps',
     ],
 
     # list of images to use in the form 'name image-url'
