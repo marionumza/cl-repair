@@ -35,7 +35,7 @@
     'env-ver': '2',
 
     # if Enterprise it installs in a different directory than community
-    'odoo-license': 'CE',
+    'odoo-license': 'EE',
 
     # Config to write in odoo.conf
     'config': [
